@@ -1,8 +1,7 @@
 DELAY 1000
-GUI r                  
+GUI r
 DELAY 500
-STRING chrome https://www.whitescreen.online/blue-screen-of-death-windows/
-DELAY 500
+STRING chrome --start-fullscreen https://geekprank.com/blue-death/
+DELAY 1000
 ENTER
-DELAY 2000              
-STRING F                     
+DELAY 2000
